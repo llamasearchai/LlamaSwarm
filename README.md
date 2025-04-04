@@ -69,7 +69,7 @@ See the `examples` directory for more detailed examples:
 
 ## Documentation
 
-For detailed documentation, visit [our documentation site](https://llamaswarm.readthedocs.io/).
+For detailed documentation, visit [our documentation site](https://llamasearch.ai
 
 ## Contributing
 
