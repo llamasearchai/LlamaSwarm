@@ -9,14 +9,14 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
     requirements = [r for r in requirements if not r.startswith("#") and r.strip()]
 
 setup(
-    name="llamaswarm",
+    name="llamaswarm-llamasearch",
     version="0.1.0",
-    author="LlamaSwarm Team",
-    author_email="info@llamaswarm.ai",
+    author="LlamaSearch AI",
+    author_email="nikjois@llamasearch.ai",
     description="A simulator for multi-agent reinforcement learning",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/llamaswarm/llamaswarm",
+    url="https://llamasearch.ai",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -42,4 +42,6 @@ setup(
             "sphinx-rtd-theme>=1.0.0",
         ],
     },
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
 ) 
